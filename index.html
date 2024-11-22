@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAHUL PORTFOLIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        /* *{
+            margin: 0;
+            padding: 0; */
+        /* } */
+        body{
+            background-color: rgb(17, 17, 92);
+            color: white;
+            font-family: "Poppins", sans-serif;
+            height: 100vh;
+            width: 100%;
+        }
+        .nav{
+           position: fixed;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(48, 48, 149); 
+            top: 0;
+            width: 100%;
+        }
+        .right ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .right ul li{
+            list-style: none;
+            margin: 0 25px;
+        }
+        .right ul li a{
+            color: white;
+            text-decoration: none;
+        }
+        .right ul li a:hover{
+            font-size: 1.02rem;
+        }
+        .left{
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        .first-section{
+            display: flex;
+            justify-content: space-around;
+            margin: 10vh;
+            align-items: center;
+            
+        }
+        .first-section > div{
+            width: 35%;
+            
+        }
+        .left-section{
+            font-size: 3rem;
+        }
+        .right-section img{
+            width: 100%;
+            margin-top: 50px;
+        }
+    .purple{
+        color: rgb(185, 117, 248);
+    } 
+    #element{
+        color: rgb(185, 117, 248);
+    } 
+    .second-section{
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+    }
+    hr{
+        border: 0;
+        background-color: rgb(38, 38, 208);
+        height: 2px;
+        margin: 3vh 6%;
+    }
+       .second-section h1{
+        font-size: 1.9rem;
+       } 
+       .text-gray{
+        color: gray;
+       }
+       .second-section .horizontle-line{
+        background-color: white;
+        width: 77vw;
+        height: 2px;
+        margin-top: 50px;
+        display: flex;
+       }
+       .second-section .vertical{
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 120px;
+       }
+       .image-top{
+        width: 28px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+       }
+       .vertical-title{
+        position: relative;
+        top: 75px;
+        width: 150px;
+       }
+       .vertical-desc{
+        position: relative;
+        top: 86px;
+        width: 150px;
+        color: gray;
+        font-size: 9px;
+       }
+       footer{
+        background-color: rgb(20, 18, 104);
+       }
+       .footer{
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+       }
+       .flex{
+        display: flex;
+
+       }
+       .footer > div{
+        width: 223px;
+       }
+       .text-center{
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+       }
+       .red-btn{
+        padding: 12px;
+        background-color: rgb(79, 49, 248);
+        color: white;
+        border: 2px;
+        border-radius: 8px;
+        font-size: 20px;
+        cursor: pointer;
+       }
+       .buttons{
+        margin-top: 10px;
+       }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="left">Rahul's Portfolio</div>
+        <div class="right">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">Contact Me</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="first-section">
+        <div class="left-section">Hii, I am <span class="purple">Rahul</span> 
+        <div> and I am a Creative</div><span id="element"></span>
+        <div class="buttons">
+            <button class="red-btn">download resume</button>
+            <button class="red-btn">visit github</button>
+        </div>
+        </div>
+        <div class="right-section"><img src="developer.png" alt=""></div>
+    </div>
+    <hr>
+    <div class="second-section">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Work Experience</h1>
+
+
+        <div class="horizontle-line">
+         <div class="vertical">
+                <img  class="image-top" src="developer1.png" alt="">
+            <div class="vertical-title">HTML Developer (2010-2012)</div>
+            <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti illum dolor sint neque doloribus. Repudiandae, omnis voluptate velit corrupti sequi adipisci. </div>
+            </div>
+            <div class="vertical">
+                <img  class="image-top" src="developer1.png" alt="">
+            <div class="vertical-title">Node JS Developer (2012-2014)</div>
+            <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti illum dolor sint neque doloribus. Repudiandae, omnis voluptate velit corrupti sequi adipisci. </div>
+            </div> <div class="vertical">
+                <img  class="image-top" src="developer1.png" alt="">
+            <div class="vertical-title">HTML Developer (2020-2024)</div>
+            <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti illum dolor sint neque doloribus. Repudiandae, omnis voluptate velit corrupti sequi adipisci. </div>
+            </div> <div class="vertical">
+                <img  class="image-top" src="developer1.png" alt="">
+            <div class="vertical-title">HTML Developer (2020-2024)</div>
+            <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti illum dolor sint neque doloribus. Repudiandae, omnis voluptate velit corrupti sequi adipisci. </div>
+            </div> <div class="vertical">
+                <img  class="image-top" src="developer1.png" alt="">
+            <div class="vertical-title">HTML Developer (2020-2024)</div>
+            <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti illum dolor sint neque doloribus. Repudiandae, omnis voluptate velit corrupti sequi adipisci. </div>
+            </div>
+           
+        </div>
+    </div>
+    <footer>
+        <div class="flex">
+            <div class="footer first">
+                <h1>Rahul Developer Portfolio</h1>
+            </div>
+            <div class="footer second">
+                <ul>
+                    <li>Home</li>
+                    <li>Contact</li>
+                    <li>Help</li>
+                    <li>Card</li>
+                </ul>
+            </div>
+            <div class="footer third"> <ul>
+                <li>Home</li>
+                <li>Contact</li>
+                <li>Help</li>
+                <li>Card</li>
+            </ul></div>
+            <div class="footer fourth"> <ul>
+                <li>Home</li>
+                <li>Contact</li>
+                <li>Help</li>
+                <li>Card</li>
+            </ul></div>
+        </div>
+        <div class="text-center">
+            www.rahulsportfolio.com | All right reserved
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Graphic Designer','Web Designer','Video Editor'],
+      typeSpeed: 50,
+    });
+    </script>
+</body>
+</html>
